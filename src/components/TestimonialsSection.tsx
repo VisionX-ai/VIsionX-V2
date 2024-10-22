@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 const testimonials = [
   {
-    name: 'Sarah Johnson',
-    role: 'CTO, TechCorp',
-    content: 'AI Innovate has transformed our business processes. Their AI solutions have increased our efficiency by 200%.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
+    name: 'David Ukeje',
+    role: 'Lead Auditor, Qesh Standard Limited',
+    content: 'VisionForge AI solutions streamlined our processes, boosted efficiency, and delivered outstanding results for our business.',
+    image: 'qeshlogs.png',
   },
   {
     name: 'Michael Chen',
@@ -47,7 +47,7 @@ const TestimonialsSection: React.FC = () => {
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-24 h-24 rounded-full mb-4 border-4 border-electric-blue"
+                  className="w-24 h-24 rounded-full mb-4 border-4 border-custom-green"
                 />
                 <p className="text-lg mb-4">{testimonial.content}</p>
                 <h3 className="text-xl font-semibold">{testimonial.name}</h3>

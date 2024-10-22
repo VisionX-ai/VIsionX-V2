@@ -38,14 +38,14 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
-              <a href="#" className="text-2xl font-bold text-electric-blue">AI Innovate</a>
+              <a href="#" className="text-2xl font-bold transition-colors duration-300">VisionForge AI Automations</a>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <a href="#services" className="hover:bg-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Services</a>
                 <a href="#testimonials" className="hover:bg-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Testimonials</a>
                 <a href="#ai-showcase" className="hover:bg-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">AI Showcase</a>
-                <a href="#contact" className="bg-electric-blue hover:bg-electric-blue-dark text-black px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300">Contact Us</a>
+                <a href="#" className="bg-electric-blue hover:bg-electric-blue-dark text-black px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300">Contact Us</a>
               </div>
             </div>
             <div className="md:hidden">
@@ -81,16 +81,7 @@ function App() {
 
       <Footer />
 
-      {/* Chatbot */}
-      <div className="fixed bottom-4 right-4 z-50">
-        <button
-          onClick={() => setIsChatbotOpen(!isChatbotOpen)}
-          className="bg-electric-blue hover:bg-electric-blue-dark text-black p-3 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110"
-        >
-          <MessageSquare className="h-6 w-6" />
-        </button>
-      </div>
-      {isChatbotOpen && <Chatbot onClose={() => setIsChatbotOpen(false)} />}
+      {}
     </div>
   );
 }

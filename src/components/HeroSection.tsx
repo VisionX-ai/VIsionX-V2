@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
     renderer.setPixelRatio(window.devicePixelRatio);
 
     const geometry = new THREE.IcosahedronGeometry(1, 1);
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ffff, wireframe: true });
+    const material = new THREE.MeshBasicMaterial({ color: 0x00ff7f, wireframe: true });
     const icosahedron = new THREE.Mesh(geometry, material);
     scene.add(icosahedron);
 
@@ -57,7 +57,7 @@ const HeroSection: React.FC = () => {
           Transforming businesses through cutting-edge artificial intelligence solutions
         </p>
         <a
-          href="#contact"
+          href="https://rn38oqiy4c9.typeform.com/to/RoQQtSJ9"
           className="bg-electric-blue hover:bg-electric-blue-dark text-black px-8 py-3 rounded-full text-lg font-semibold transition-all duration-300 animate-fade-in-up animation-delay-600 hover:shadow-neon"
         >
           Get Started

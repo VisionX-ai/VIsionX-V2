@@ -5,8 +5,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700&display=swap');
 
 :root {
-  --electric-blue: #00ffff;
-  --electric-blue-dark: #00cccc;
+  --custom-green: #00ff7f;
+  --custom-green-dark: #00cc66;
 }
 
 body {
@@ -16,19 +16,19 @@ body {
 }
 
 .text-electric-blue {
-  color: var(--electric-blue);
+  color: var(--custom-green);
 }
 
 .bg-electric-blue {
-  background-color: var(--electric-blue);
+  background-color: var(--custom-green);
 }
 
 .hover\:bg-electric-blue-dark:hover {
-  background-color: var(--electric-blue-dark);
+  background-color: var(--custom-green-dark);
 }
 
 .shadow-neon {
-  box-shadow: 0 0 10px var(--electric-blue), 0 0 20px var(--electric-blue);
+  box-shadow: 0 0 10px var(--custom-green), 0 0 20px var(--custom-green);
 }
 
 @keyframes fadeInUp {

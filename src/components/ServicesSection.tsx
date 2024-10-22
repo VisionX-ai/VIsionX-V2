@@ -1,21 +1,21 @@
 import React from 'react';
-import { Brain, Cpu, BarChart3 } from 'lucide-react';
+import { Brain, Cpu, Mic } from 'lucide-react';
 
 const services = [
   {
     icon: <Brain className="h-12 w-12 text-electric-blue" />,
-    title: 'Machine Learning',
-    description: 'Harness the power of data with our advanced machine learning algorithms.',
+    title: 'Chatbot Development',
+    description: 'Harness the power of AI to create intelligent, responsive chatbots that enhance customer interactions and automate support effortlessly.',
   },
   {
     icon: <Cpu className="h-12 w-12 text-electric-blue" />,
-    title: 'AI Integration',
-    description: 'Seamlessly integrate AI into your existing systems and workflows.',
+    title: 'Workflow Automation',
+    description: 'Streamline your processes with AI-driven automation that boosts efficiency and reduces manual tasks, optimizing workflows from end to end.',
   },
   {
-    icon: <BarChart3 className="h-12 w-12 text-electric-blue" />,
-    title: 'Predictive Analytics',
-    description: 'Make data-driven decisions with our predictive analytics solutions.',
+    icon: <Mic className="h-12 w-12 text-electric-blue" />,
+    title: 'Voice Agent Development',
+    description: 'Develop advanced voice AI solutions that enable seamless voice interactions, bringing powerful, natural speech capabilities to your applications.',
   },
 ];
 
