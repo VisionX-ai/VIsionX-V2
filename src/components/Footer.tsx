@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               <a href="#" className="text-gray-400 hover:text-electric-blue transition-colors duration-300">
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-electric-blue transition-colors duration-300">
+              <a href="https://www.linkedin.com/company/visionforge-ai-automations/?viewAsMember=true" className="text-gray-400 hover:text-electric-blue transition-colors duration-300">
                 <Linkedin className="h-6 w-6" />
               </a>
               <a href="#" className="text-gray-400 hover:text-electric-blue transition-colors duration-300">

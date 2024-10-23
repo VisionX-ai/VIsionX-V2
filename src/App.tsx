@@ -45,7 +45,7 @@ function App() {
                 <a href="#services" className="hover:bg-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Services</a>
                 <a href="#testimonials" className="hover:bg-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">Testimonials</a>
                 <a href="#ai-showcase" className="hover:bg-gray-900 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300">AI Showcase</a>
-                <a href="#" className="bg-electric-blue hover:bg-electric-blue-dark text-black px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300">Contact Us</a>
+                <a href="https://jnk59nl41ls.typeform.com/to/ObM7BoPk" className="bg-electric-blue hover:bg-electric-blue-dark text-black px-4 py-2 rounded-md text-sm font-medium transition-colors duration-300">Contact Us</a>
               </div>
             </div>
             <div className="md:hidden">
