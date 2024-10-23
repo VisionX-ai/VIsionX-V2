@@ -2,22 +2,22 @@ import React, { useState, useEffect } from 'react';
 
 const testimonials = [
   {
-    name: 'David Ukeje',
+    name: 'Engr.David Ukeje',
     role: 'Lead Auditor, Qesh Standard Limited',
     content: 'VisionForge AI solutions streamlined our processes, boosted efficiency, and delivered outstanding results for our business.',
-    image: 'qeshlogs.png',
+    image: './qeshlogs.png',
   },
   {
-    name: 'Michael Chen',
-    role: 'Director of Innovation, HealthTech',
-    content: 'The AI-powered diagnostic tool developed by AI Innovate has revolutionized our patient care. It\'s truly groundbreaking.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
+    name: '',
+    role: '',
+    content: '',
+    image: '#',
   },
   {
-    name: 'Emily Rodriguez',
-    role: 'Lead Data Scientist, FinanceAI',
-    content: 'Working with AI Innovate has been a game-changer. Their expertise in AI and machine learning is unparalleled.',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80',
+    name: '',
+    role: '',
+    content: '',
+    image: '#',
   },
 ];
 
